@@ -10,11 +10,11 @@ To build this model, we have data regarding each customer, such as ID, Gender, a
 
 <H2>Project Summary</H2>
 
-<H4>Data collection</H4>
+<H3>Data collection</H3>
 
 * In the early stages of this project, we loaded and collected our data, stored it in the data frame, and performed some basic analysis like checking out shape, dimensions, etc.
 
-<H4>EDA</H4>
+<H3>EDA</H3>
 
 * In the process of EDA, we followed the thumb rule of analysis, i.e., UBM (univariate, bivariate, and Multivariate Analysis).
 
@@ -26,7 +26,7 @@ To build this model, we have data regarding each customer, such as ID, Gender, a
 
 * In Multivariate analysis, we used the Python library 'sweetviz' to perform multivariate analysis, and we also used 'correlation Heatmap'.
 
-<H4>Hypothesis Testing</H4>
+<H3>Hypothesis Testing</H3>
 
 We performed our Hypothesis on these 3 statements :
 
@@ -38,13 +38,13 @@ We performed our Hypothesis on these 3 statements :
 
 We used Z-test and chi2 test to derive our conclusions.
 
-<H4>Feature engineering and Data preprocessing</H4>
+<H3>Feature engineering and Data preprocessing</H3>
   
 * No outliers were detected in our independent numerical features, excluding 'Annual Premium'.
 
 * We used the trimming technique for our outlier treatment.
 
-</H5>In our 'Data preprocessing' part:</H5>
+</H4>In our 'Data preprocessing' part:</H4>
 
 * We used the VIF (Variance Inflation Factor) method to check out the correlation between numerical features but found none.
 
@@ -54,10 +54,41 @@ We used Z-test and chi2 test to derive our conclusions.
 * Our target variable was heavily imbalanced, so to reduce the difference between both classes, we used the SMOTE technique to balance our 
   dataset.
 
-Model Training
-We performed a train-ttest split of 80:20 in our dataset.
+<H3>Model Training</H3>
 
-In the next step, we scaled our data with the help of StandardScaler().
+* We performed a train-test split of 80:20 in our dataset.
 
-Model Implementation :
-In the dataframe below are all the evaluation metrics and models that we implemented on our dataset:
+* In the next step, we scaled our data with the help of StandardScaler().
+
+<H4>Model Implementation :</H4>
+
+* In the data frame below are all the evaluation metrics and models that we implemented on our dataset:
+
+* In the model implementation part, we used 5 models on our datasets: Logistic Regression, Decision Tree, Random Forest, Naive Bayes, and 
+  Gradient Boosting.
+
+**Logistic Regression**
+
+**Accuracy score = 81%, F1 - score = 83%, Roc Auc score = 81%**
+
+**Decision Tree**
+
+**Accuracy score = 81%, F1 - score = 81%, Roc Auc score = 81%**
+
+**Random Forest**
+
+**Accuracy score = 87%, F1 - score = 87%, Roc Auc score = 87%**
+
+**Naive Bayes**
+
+**Accuracy score = 80%, F1 - score = 82%, Roc Auc score = 80%**
+
+**Gradient Boosting**
+
+**Accuracy score = 83%, F1 - score = 84%, Roc Auc score = 83%**
+
+*The Random forest Classifier has the highest F1 score of 87% for the test Set among all models. There is no evidence of overfitting.
+
+*No overfitting is seen.
+
+Finally, the insurance business may apply a machine learning model based on the Random Forest Classifier to forecast if an existing health insurance client would be interested in a motor insurance policy. The firm may increase the conversion rate by taking initiatives to encourage individuals to get automobile insurance by giving incentives or simplifying the application and claim settlement procedures. Because the client acquisition cost stays zero, cross-selling may be an efficient way to boost earnings.
