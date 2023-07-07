@@ -69,26 +69,26 @@ We used Z-test and chi2 test to derive our conclusions.
 
 **Logistic Regression**
 
-**Accuracy score = 81%, F1 - score = 83%, Roc Auc score = 81%**
+Accuracy score = 81%, F1 - score = 83%, Roc Auc score = 81%
 
 **Decision Tree**
 
-**Accuracy score = 81%, F1 - score = 81%, Roc Auc score = 81%**
+Accuracy score = 81%, F1 - score = 81%, Roc Auc score = 81%
 
 **Random Forest**
 
-**Accuracy score = 87%, F1 - score = 87%, Roc Auc score = 87%**
+Accuracy score = 87%, F1 - score = 87%, Roc Auc score = 87%
 
 **Naive Bayes**
 
-**Accuracy score = 80%, F1 - score = 82%, Roc Auc score = 80%**
+Accuracy score = 80%, F1 - score = 82%, Roc Auc score = 80%
 
 **Gradient Boosting**
 
 Accuracy score = 83%, F1 - score = 84%, Roc Auc score = 83%
 
-*The Random forest Classifier has the highest F1 score of 87% for the test Set among all models. There is no evidence of overfitting.
+* The Random forest Classifier has the highest F1 score of 87% for the test Set among all models. There is no evidence of overfitting.
 
-*No overfitting is seen.
+* No overfitting is seen.
 
 Finally, the insurance business may apply a machine learning model based on the Random Forest Classifier to forecast if an existing health insurance client would be interested in a motor insurance policy. The firm may increase the conversion rate by taking initiatives to encourage individuals to get automobile insurance by giving incentives or simplifying the application and claim settlement procedures. Because the client acquisition cost stays zero, cross-selling may be an efficient way to boost earnings.
