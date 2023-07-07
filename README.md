@@ -85,7 +85,7 @@ We used Z-test and chi2 test to derive our conclusions.
 
 **Gradient Boosting**
 
-**Accuracy score = 83%, F1 - score = 84%, Roc Auc score = 83%**
+Accuracy score = 83%, F1 - score = 84%, Roc Auc score = 83%
 
 *The Random forest Classifier has the highest F1 score of 87% for the test Set among all models. There is no evidence of overfitting.
 
